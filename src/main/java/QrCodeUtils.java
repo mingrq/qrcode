@@ -42,12 +42,6 @@ public class QrCodeUtils {
     }
 
     /**
-     *
-     * @param QRCODE_SIZE
-     * @param WIDTH
-     * @param HEIGHT
-     */
-    /**
      * 设置二维码尺寸
      *
      * @param QrCodeSize 二维码尺寸  -1默认300
