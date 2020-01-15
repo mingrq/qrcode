@@ -26,6 +26,9 @@ import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 import sun.misc.BASE64Encoder;
 
+/**
+ * 二维码工具类
+ */
 public class QrCodeUtils {
     private String CHARSET = "utf-8";
     private String FORMAT_NAME = "PNG";
@@ -42,7 +45,6 @@ public class QrCodeUtils {
     }
 
     /**
-     * 设置二维码尺寸
      *
      * @param QrCodeSize 二维码尺寸  -1默认300
      * @param Width      LOGO宽度  -1默认60
